@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankauf & Inzahlungnahme | BK Automobile</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .ankauf-hero {
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../assets/images/ankauf_hero.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            /* Align left for cinematic feel */
+            padding: 0 10%;
+        }
+
+        .ankauf-content {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .ankauf-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+            text-transform: uppercase;
+        }
+
+        .ankauf-content p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #ddd;
+            font-weight: 300;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 20px;
+        }
+
+        .primary-btn {
+            background-color: #fff;
+            color: #000;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .primary-btn:hover {
+            background-color: #ccc;
+            transform: translateY(-2px);
+        }
+
+        .secondary-btn {
+            background-color: transparent;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 2px solid #fff;
+            transition: all 0.3s ease;
+        }
+
+        .secondary-btn:hover {
+            background-color: #fff;
+            color: #000;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">BK Automobile</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="index.html">Ankauf</a></li>
+            <li><a href="../kontakt/index.html">Kontakt</a></li>
+        </ul>
+        <a href="https://home.mobile.de/BKAUTOMOBILENUERTINGEN" target="_blank" class="cta-button">Fahrzeugbestand</a>
+    </nav>
+
+    <main>
+        <header class="ankauf-hero">
+            <div class="ankauf-content">
+                <h1>Fahrzeugankauf & <br>Inzahlungnahme</h1>
+                <p>Wir suchen ständig gepflegte Sport- und Luxuswagen. Tauschen Sie Ihr jetziges Fahrzeug gegen Ihren
+                    Traumwagen ein oder verkaufen Sie es direkt an uns.</p>
+                <div class="btn-group">
+                    <a href="https://home.mobile.de/BKAUTOMOBILENUERTINGEN" class="primary-btn">Zum Fahrzeugbestand</a>
+                    <a href="../kontakt/index.html" class="secondary-btn">Angebot anfordern</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="intro">
+            <h2>Warum an BK Automobile verkaufen?</h2>
+            <p style="max-width: 800px; margin: 20px auto; color: #aaa;">
+                Wir garantieren eine seriöse Abwicklung, faire Preise und sofortige Bezahlung.
+                Unser Fokus liegt auf exklusiven Fahrzeugen, die wir zu schätzen wissen.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="../impressum/index.html">Impressum</a>
+            <a href="../datenschutz/index.html">Datenschutz</a>
+        </div>
+        <p>&copy; 2024 BK Automobile. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
