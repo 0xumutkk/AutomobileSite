@@ -77,6 +77,59 @@
             color: #000;
             transform: translateY(-2px);
         }
+
+        /* Requirements List Styling */
+        .requirements-section {
+            padding: 80px 10%;
+            background-color: #0a0a0a;
+            border-top: 1px solid #222;
+        }
+
+        .requirements-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .requirements-container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        .requirements-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .requirement-item {
+            margin-bottom: 25px;
+            padding-left: 35px;
+            position: relative;
+            font-size: 1.15rem;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .requirement-item::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color, #d4af37);
+            font-size: 2rem;
+            line-height: 1.1;
+        }
+
+        .requirement-item strong {
+            color: #fff;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+
+        .requirement-item span {
+            color: #999;
+            font-size: 1rem;
+        }
     </style>
 </head>
 
@@ -111,6 +164,30 @@
                 Wir garantieren eine seriöse Abwicklung, faire Preise und sofortige Bezahlung.
                 Unser Fokus liegt auf exklusiven Fahrzeugen, die wir zu schätzen wissen.
             </p>
+        </section>
+
+        <section class="requirements-section">
+            <div class="requirements-container">
+                <h2>Bitte senden Sie uns:</h2>
+                <ul class="requirements-list">
+                    <li class="requirement-item">
+                        <strong>Fahrzeugdaten</strong> <span>(Marke, Modell, Baujahr)</span>
+                    </li>
+                    <li class="requirement-item">
+                        <strong>Kilometerstand</strong>
+                    </li>
+                    <li class="requirement-item">
+                        <strong>Preisvorstellung</strong>
+                    </li>
+                    <li class="requirement-item">
+                        <strong>Detaillierte Bilder</strong> <span>(Außenansicht, Innenraum, Motorraum, eventuell
+                            Roststellen oder Mängel)</span>
+                    </li>
+                    <li class="requirement-item">
+                        <strong>Sonstige Informationen</strong> <span>(z. B. Fahrzeughistorie, Reparaturen)</span>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
